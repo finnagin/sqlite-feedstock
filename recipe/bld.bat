@@ -1,5 +1,7 @@
 if "%ARCH%"=="32" (
 set PLATFORM=x86
+) else if "%ARCH%"=="arm64" (
+set PLATFORM=arm64
 ) else (
 set PLATFORM=x64
 )
